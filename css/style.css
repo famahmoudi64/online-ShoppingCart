@@ -1,0 +1,238 @@
+:root {
+  --color-primary: #584a99;
+  --color-secondary: #efe8f6;
+  --color-light: #f7f7f7;
+  --color-error: #f75e4b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  /* max-width: 1400px; */
+  margin: 0;
+}
+
+main{
+display : flex;
+margin-top: 160px;
+justify-content: space-evenly;
+}
+
+#products {
+  display: flex;
+  margin-right: 40px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#products > div{
+ width:100%;
+ max-width:320px;
+ box-sizing: border-box;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border-radius: 30px;
+ padding: 10px;
+ margin-bottom: 40px;
+ box-shadow: rgba(100,100,111,0.2)0px 7px 29px 0px;
+ min-height: 300px
+}
+
+#products img {
+  border-radius: 25px;
+  width:100%
+}
+
+#product-info {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width:100%;
+border-radius: 25px;
+height:120px;
+padding:25px;
+margin-top:30px;
+background-color:#cdc8e7
+}
+
+#product-info p{
+  color:#584a99;
+  font-size:1.1rem;
+  font-weight: bold;
+} 
+
+#product-info div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#product-info span{
+  color:rgb(95, 95, 95);
+  font-size: 1.1rem;
+}
+
+#product-info button{
+  background-color:#fff;
+  border:none;
+  width:40px;
+  height:40px;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 2rem;
+  box-shadow:rgba(149,157,165,0.2) 0px 10px 20px;
+  transition: all 0.2s ease-in;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+}
+
+#product-info button:hover {
+ background-color:indigo;
+ color:#fff;
+}
+
+#cart {
+flex:0 0 300px;
+margin-right:8px,
+}
+
+.cartSec {
+  height: 50px;
+  background-color: #584a99;
+  font-size: 1.2rem;
+  padding: 10px;
+  text-align: center;
+  border-radius: 25px;
+  display: flex; /* Add this line to make it a flex container */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  color:#fff
+}
+
+.selectProduct > p{
+  margin-top:20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border:2px solid #f75e4b;
+  background-color: #fff;
+  font-size: 1.2rem;
+  padding: 10px;
+  text-align: center;
+  display: flex; /* Add this line to make it a flex container */
+  flex-direction: column;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+} 
+
+.totalPrice{
+  border-radius: 15px;
+  border:1px solid rgb(221, 219, 219);
+  color:rgb(90, 89, 89);
+  height:50px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  font-size: 1rem;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.priceStyle{
+ font-size: 1rem;
+ color:rgb(141, 138, 138);
+}
+
+ .proDiv{
+  margin-top:20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border:1px solid rgb(221, 219, 219);
+  background-color: #fff;
+  font-size: 1.2rem;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between
+}  
+
+.product-info-cart {
+  display : flex;
+  flex-direction: column;
+}
+.quantity{
+  display:flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+.incButton , .decButton{
+  background-color:#cdc8e7;
+  border:none;
+  width:20px;
+  height:20px;
+  line-height: 20px;
+  border-radius: 50%;
+  font-size: 1rem;
+  box-shadow:rgba(149,157,165,0.2) 0px 10px 20px;
+  transition: all 0.2s ease-in;
+  align-items: center;
+}
+
+.removeProduct{
+  border:1px solid #f75e4b;
+  border-radius: 5px;
+  color:#f75e4b;
+  font-size: 1rem;
+  background-color: #fff;
+  margin-top: 10px;
+  padding:5px 10px
+}
+.product-Name{
+ color:#584a99;
+ font-size: 1rem;
+ margin-bottom:10px
+}
+.imgLogo{
+  border:none;
+  border-radius:50%;
+  width:60px
+}
+/* nav{
+  z-index:100;  
+  backdrop-filter:blur(20px); 
+  transition: all 0.3 ease;
+} */
+/* .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+  /* z-index: -1;
+} */
+
+@media (min-width: 768px) {
+  #products > div {
+    width: 48%; /* Two products side by side on larger screens */
+  }
+}
+
+@media (min-width: 992px) {
+  #products > div {
+    width: 31%; /* Three products side by side on extra-large screens */
+  }
+  #products > div:only-child {
+    width: 100%; /* Full width for a single product on smaller screens */
+  }
+}
