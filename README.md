@@ -2,7 +2,9 @@
 --------------------------------------
 Welcome to the Responsive Online Shop project! This is a web application built using HTML, CSS, JavaScript, and Bootstrap. The application showcases a variety of products, provides a smart search functionality, and allows users to seamlessly add products to their shopping basket.
 
+
 Features:
+
   **Product Display: The application features a wide range of products, elegantly displayed on a responsive webpage using HTML, CSS, and Bootstrap.
 
   **Smart Search: The smart search functionality allows users to quickly find products by entering keywords. The search is responsive and dynamically filters products based on user 
@@ -12,7 +14,9 @@ Features:
 
   **Total Price Calculation: The application calculates and displays the total price of the products selected by the user in the shopping basket.
 
+
 Technologies Used:
+
   *HTML: The structure of the webpage is defined using HTML to create a semantic and accessible layout.
   
   *CSS: Styling is applied using CSS to ensure a visually appealing and user-friendly design.
@@ -23,6 +27,7 @@ Technologies Used:
 
 
 Usage:
+
   1.Clone the repository: git clone https://github.com/your-username/online-shop.git
   
   2.Open the project folder:cd online-shop
@@ -33,5 +38,6 @@ Usage:
 
 
 Responsive Design:
+
 The application is built with responsiveness in mind, ensuring an optimal user experience across various devices and screen sizes. 
 Bootstrap is leveraged to create a mobile-friendly layout, providing a seamless experience on both desktop and mobile devices.
