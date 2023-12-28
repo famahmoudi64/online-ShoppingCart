@@ -14,15 +14,21 @@ Features:
 
 Technologies Used:
   *HTML: The structure of the webpage is defined using HTML to create a semantic and accessible layout.
+  
   *CSS: Styling is applied using CSS to ensure a visually appealing and user-friendly design.
+  
   *JavaScript: Interactivity and dynamic behavior are implemented using JavaScript for a seamless user experience.
+  
   *Bootstrap: Bootstrap is utilized for responsive design and the creation of a mobile-friendly layout.
 
 
 Usage:
   1.Clone the repository: git clone https://github.com/your-username/online-shop.git
+  
   2.Open the project folder:cd online-shop
+  
   3.Open the index.html file in your preferred web browser.
+  
   4.Explore the products, use the search, and interact with the shopping basket.
 
 
