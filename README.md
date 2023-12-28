@@ -12,11 +12,11 @@ Features:
 
   **Total Price Calculation: The application calculates and displays the total price of the products selected by the user in the shopping basket.
 
-Technologies Used
-  HTML: The structure of the webpage is defined using HTML to create a semantic and accessible layout.
-  CSS: Styling is applied using CSS to ensure a visually appealing and user-friendly design.
-  JavaScript: Interactivity and dynamic behavior are implemented using JavaScript for a seamless user experience.
-  Bootstrap: Bootstrap is utilized for responsive design and the creation of a mobile-friendly layout.
+Technologies Used:
+  *HTML: The structure of the webpage is defined using HTML to create a semantic and accessible layout.
+  *CSS: Styling is applied using CSS to ensure a visually appealing and user-friendly design.
+  *JavaScript: Interactivity and dynamic behavior are implemented using JavaScript for a seamless user experience.
+  *Bootstrap: Bootstrap is utilized for responsive design and the creation of a mobile-friendly layout.
 
 
 Usage:
