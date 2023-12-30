@@ -28,9 +28,9 @@ Technologies Used:
 
 Usage:
 
-  1.Clone the repository: git clone https://github.com/your-username/online-shop.git
+  1.Clone the repository: git clonehttps://github.com/famahmoudi64/online-ShoppingCart.git
   
-  2.Open the project folder:cd online-shop
+  2.Open the project folder:cd online-ShoppingCart
   
   3.Open the index.html file in your preferred web browser.
   
